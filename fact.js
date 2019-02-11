@@ -5,4 +5,4 @@
   }
   return n * fact(n - 1);
 }
-module.export{fact(n)}
+module.export = { fact };
